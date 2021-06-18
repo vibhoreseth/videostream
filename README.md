@@ -1,5 +1,11 @@
 # Videostream
 
+1)Create a mongo db database as specified in mongodb_database folder.
+
+2)import all npm packages using npm install .
+
+3) add video files in assests/video folder with appropriate names.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
 ## Development server
