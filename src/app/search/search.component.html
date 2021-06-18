@@ -1,0 +1,9 @@
+<div class="mr-auto d-inline-flex ">
+    <div class="card" style="width: 18rem;" *ngFor="let v of videos" (click)="play(v)">
+      <img class="card-img-top" src={{v.img}} alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{v.name}}</h5>
+      </div>
+    </div>
+
+  </div>
